@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="playAudio()">play</button>
+    <button onclick="pausAudio()">Pause</button>
+    <script>
+        var audioFile=new Audio()
+        audioFile.src="./ring.wav"
+        function playAudio()
+        {
+            audioFile.play();
+
+        }
+        function pausAudio()
+        {
+            audioFile.pause();
+        }
+    </script>
+</body>
+</html>
